@@ -1,0 +1,9 @@
+# Defaults for ps3netsrv initscript
+# sourced by /etc/init.d/ps3netsrv
+# installed at /etc/default/ps3netsrv by the maintainer scripts
+
+# Additional options that are passed to the Daemon.
+# USER=user
+# DATADIR=/home/user/ps3
+# PORT=38008
+# WHITELIST=192.168.1.*

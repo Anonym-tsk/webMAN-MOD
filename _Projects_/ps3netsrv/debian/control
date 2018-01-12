@@ -1,0 +1,13 @@
+Source: ps3netsrv
+Section: net
+Priority: optional
+Maintainer: Nikolay Vasilchuk <anonym.tsk@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/aldostools/webMAN-MOD/tree/master/_Projects_/ps3netsrv
+
+Package: ps3netsrv
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ps3netsrv service
+ Network file sharing server for PS3
